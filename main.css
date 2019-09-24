@@ -278,3 +278,20 @@ article img {
 article table {
     margin: 5px 10px 10px 10px;
 }
+
+article table th {
+	font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+tr td {
+	padding: 5px;
+	color: black;
+}
