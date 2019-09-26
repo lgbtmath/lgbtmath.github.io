@@ -294,4 +294,16 @@ tbody tr:nth-child(even) {
 tr td {
 	padding: 5px;
 	color: black;
+	line-height: 1em;
+}
+
+td img {
+	height: 1em;
+	width: 1em;
+	margin-left: .5em;
+	margin-right: .5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	vertical-align: text-bottom;
 }
