@@ -147,17 +147,14 @@ aside
 /* The bubbles float here, so here we can change the
 focal background colors */
 
-.MainFrame
-{
+main {
     float:left;
     position: relative;
     z-index: 0;
     margin-left: 1%;
     width:83%;
     background-color: rgba(163,154,137,0.5);
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
 
     
@@ -183,7 +180,7 @@ a
 /* Section Rules */
 
 .Content {
-    background: #2774AE;
+ background: #2774AE;
 	color: white;
 	border-top-right-radius:5pt;
 	border-bottom-left-radius:5pt;
@@ -192,13 +189,24 @@ a
 }
 
 .SectionHeading {
-    float:left;
-    display:block;
-    background: rgba(235, 232, 217, 0.8);
+ float:left;
+ display:block;
+ background: rgba(235, 232, 217, 0.8);
 	color: black;
 	border-top-left-radius:5pt;
 	border-top-right-radius:5pt;
 	margin: 2% 2% -2% 2%;
+}
+
+.Legend {
+	height: 1em;
+	width: 1em;
+	margin-left: .5em;
+	margin-right: .5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	vertical-align: text-bottom;
 }
 
 section {
@@ -207,7 +215,7 @@ section {
 	background-color: rgba(235, 232, 217, 0.8);
 	margin: 2% 2% 0% 2%;
 	width: 96%;
-  border-top-right-radius:5pt;
+ border-top-right-radius:5pt;
 	border-bottom-left-radius:5pt;
 	border-bottom-right-radius:5pt;
 }
@@ -234,6 +242,8 @@ article {
     -moz-box-shadow: 0 0 10px #629996;
     -webkit-box-shadow: 0 0 10px #629996;
     opacity: 1.0;
+				height:auto;
+    overflow:auto;
 }
 
 article header {
@@ -243,7 +253,7 @@ article header {
     margin-top:5px;
 }
 
-article header h1 {
+article h1 {
  font: bold 100% Arial, Helvetica, sans-serif;
  color: black;
  margin: 0px;
@@ -274,7 +284,32 @@ article form {
 
 article img {
     width:75%;
+		margin: 5px 10px 10px 10px;
 }
+
+/* article p  */
+.BoardPhoto {
+    max-width: 10% !important;
+    height: auto;
+    width: auto;
+    float: left;
+    border-radius: 50%;
+}
+
+.BoardPhotoR {
+    max-width: 10% !important;
+    height: auto;
+    width: auto;
+    float: right;
+    border-radius: 50%;
+}
+
+/*
+.BoardPhoto:nth-of-type(odd)  {
+     float:right;
+}
+*/
+
 
 article table {
     margin: 5px 10px 10px 10px;
