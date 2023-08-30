@@ -5,6 +5,7 @@ nav a:not(:first-child) {
 nav a.icon {
 	float: right;
 	display: block;
+	top: 0px;
 }
 
 @media screen and (max-width: 600px) {

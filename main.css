@@ -89,16 +89,14 @@ nav img {
 	
 }
 
-Nav .icon {
-  display: none;
-}
-
 nav a {
+	position: relative;
 	font-size: 16px;
 	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	top: 15px;
 }
 
 nav a:hover {
@@ -109,6 +107,10 @@ nav a:hover {
 	border-bottom-left-radius:5pt;
 	border-bottom-right-radius:5pt;
 
+}
+
+Nav .icon {
+  display: none;
 }
 
 /* Aside Rules */
