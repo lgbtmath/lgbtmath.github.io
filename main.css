@@ -89,6 +89,10 @@ nav img {
 	
 }
 
+Nav .icon {
+  display: none;
+}
+
 nav a {
 	font-size: 16px;
 	color: black;
