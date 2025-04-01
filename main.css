@@ -282,7 +282,20 @@ article img {
 		margin: 5px 10px 10px 10px;
 }
 
-/* article p  */
+article div.BoardName {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+article div.BoardTitle {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+article div.BoardAffiliation {
+    font-size: 0.8em;
+}
+
 .BoardPhoto {
     max-width: 10% !important;
     height: auto;
