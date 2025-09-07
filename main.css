@@ -351,3 +351,11 @@ td img {
 	padding: 0px;
 	vertical-align: text-bottom;
 }
+
+.Donation {
+    width: 272px;
+    margin: auto;
+    border: 2px solid #629996;
+    border-radius: 15px;
+    padding: 10px;
+}
